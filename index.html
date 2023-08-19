@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eric's Portfolio Website</title>
+  <link rel="stylesheet" href="porfolio.css">
+  <script src="https://kit.fontawesome.com/763c4cdc2a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--------header--------->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <i class="fa fa-codepen" aria-hidden="true"></i> 
+        <ul id="sidemenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Eric</span><br>from United States</h1>
+      </div>
+    </div>
+  </div>
+   <!-----End header--------->
+  <!--------about-------> 
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/IMG_6704.jpeg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>paralkdjladfjlakdfjaldskfjaldkfjaldfkjaldskfjaldskfjadf
+            ajdflajdflkjadflkjasdflkjasdflkjasdflkjasdfljkadflk
+            jadfljflakjdfalkjdflkasdfjlkasdjflaksdjflaksdfjlaksjdf
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br>Web/App Development</li>
+                <li><span>App Development</span><br>Building Android/IOS apps</li>
+              </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br>Web/App Development</li>
+              <li><span>App Development</span><br>Building Android/IOS apps</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+            <li><span>Web Development</span><br>Web/App Development</li>
+            <li><span>App Development</span><br>Building Android/IOS apps</li>
+            
+          </ul>
+         
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----------end about---------------->
+  <!-----------services---------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Deserunt cum labore reprehenderit iure. Iure accusantium unde 
+              dicta officiis illo adipisci asperiores laboriosam, minima libero 
+              voluptates ipsam, ipsum voluptatem impedit officia.</p>
+              <a href="#">Learn More</a>
+        </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deserunt cum labore reprehenderit iure. Iure accusantium unde 
+                dicta officiis illo adipisci asperiores laboriosam, minima libero 
+                voluptates ipsam, ipsum voluptatem impedit officia.</p>
+                <a href="#">Learn More</a>
+          </div> 
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deserunt cum labore reprehenderit iure. Iure accusantium unde 
+                dicta officiis illo adipisci asperiores laboriosam, minima libero 
+                voluptates ipsam, ipsum voluptatem impedit officia.</p>
+                <a href="#">Learn More</a>
+            </div>
+      </div>
+    </div>
+  </div>
+  <!--------end services------->
+  <!--------portfolio---------->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+          <div class="work1">
+            <i class="fa-brands fa-html5"></i>
+              <div class="layer">
+                <h3>HTML</h3>
+                <p>This app connects you yo the talented people around the world.
+                  Download it from play store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+              <div class="work">
+                <i class="fa fa-css3" aria-hidden="true"></i>
+                <div class="layer">
+                  <h3>CSS</h3>
+                  <p>This app connects you yo the talented people around the world.
+                  Download it from play store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+              <div class="work">
+                <i class="fa-brands fa-js"></i>
+                  <div class="layer">
+                  <h3>JAVA SCRIPT</h3>
+                  <p>This app connects you yo the talented people around the world.
+                  Download it from play store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+   </div> 
+<!------------end portfolio------------->
+<!------------contact------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-sharp fa-solid fa-paper-plane"></i>tacticalgunsammo@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>(253)820-0018</p>
+              <div class="social-icons">
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2023 Eric's Web Design. All rights reserved</p>
+      </div>
+    </div>
+
+<!------------end contact------------->
+
+
+
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
